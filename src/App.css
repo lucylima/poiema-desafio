@@ -1,10 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Inter:wght@400;700&display=swap');
 
-main {
-
-  
-}
-html, body {
+html, body, main {
+  width: 100vw;
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -40,7 +37,7 @@ html, body {
 
 .apresentacao {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   gap: 2rem;
   margin-inline: 7rem;
   margin-top: 4.5rem;
@@ -48,9 +45,6 @@ html, body {
 .header {
   display: flex;
   flex-direction: column;
-  padding-top: 96px;
-  padding-right: 48px;
-
 }
 .header h1 {
   align-self: flex-start;
@@ -68,7 +62,11 @@ html, body {
   line-height: 1.75rem;
 }
 
-#mockup1 {
-  align-self: center;
+.phone {
+display: flex;
+width: 30.5rem;
+height: 40rem;
+padding: 0rem 5.25rem;
+justify-content: center;
+align-items: center;
 }
-
