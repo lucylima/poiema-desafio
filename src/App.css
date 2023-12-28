@@ -11,7 +11,10 @@ html, body {
   font-family: 'Inter', sans-serif;
 }
 .home-container {
- 
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
 }
 .Navbar {
   display: flex;
@@ -34,3 +37,38 @@ html, body {
 .Navbar li {
  padding: 4px 8px 4px 8px;
 }
+
+.apresentacao {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  margin-inline: 7rem;
+  margin-top: 4.5rem;
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  padding-top: 96px;
+  padding-right: 48px;
+
+}
+.header h1 {
+  align-self: flex-start;
+  font-weight: 700;
+  font-size: 60px;
+  margin-bottom: 1rem;
+  line-height: 4.5rem;
+  letter-spacing: -0.09375rem;
+}
+
+.header p {
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.75rem;
+}
+
+#mockup1 {
+  align-self: center;
+}
+

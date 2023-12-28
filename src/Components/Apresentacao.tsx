@@ -1,16 +1,16 @@
 import React from "react";
-import Mockupphone1 from "./Assets/navbar/Logo.png"
+
 
 const Primeirapagina = () => {
   return (
-    <div>
-      <div>
-        <h1>A maneia mais fácil de gerenciar projetos</h1>
+    <div className="apresentacao">
+      <div className="header">
+        <h1>A maneira mais fácil de gerenciar projetos</h1>
         <p>Desde as pequenas coisas até a visão geral, organiza o trabalho para que as equipes saibam o que fazer, por que é importante e como concluí-lo.</p>
       </div>
-    
-    
-    
+      <div>
+        <img src="src/Assets/Mobile.png" alt="" id="mockup1"/>
+      </div>
     </div>
     
   );
